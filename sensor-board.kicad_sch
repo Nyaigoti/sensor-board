@@ -1,0 +1,140 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "1718863e-e3ef-45ae-b94c-c940170ab9c0")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 189.23 53.34)
+		(size 52.07 87.63)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "228c58d2-4067-46aa-a257-1b37bee1f7e8")
+		(property "Sheetname" "sensors"
+			(at 189.23 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 189.23 141.5546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "sensor-board"
+				(path "/1718863e-e3ef-45ae-b94c-c940170ab9c0"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 53.34)
+		(size 52.07 87.63)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b8d16a4c-e2e1-4314-a162-14dafd1d1a16")
+		(property "Sheetname" "power"
+			(at 63.5 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 63.5 141.5546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "sensor-board"
+				(path "/1718863e-e3ef-45ae-b94c-c940170ab9c0"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 125.73 53.34)
+		(size 52.07 87.63)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fee7ca70-ba88-4a80-84e0-e224632cef79")
+		(property "Sheetname" "mcu"
+			(at 125.73 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 125.73 141.5546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "sensor-board"
+				(path "/1718863e-e3ef-45ae-b94c-c940170ab9c0"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
