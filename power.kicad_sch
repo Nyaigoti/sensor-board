@@ -6832,7 +6832,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Plug_JAE_DX07P024AJ1"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_Amphenol_124019772112A"
 			(at 54.61 58.42 0)
 			(effects
 				(font
